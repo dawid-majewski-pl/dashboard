@@ -15,11 +15,11 @@ const Navbar = () => {
                 <span className="Navbar__header">FastDev</span>
             </div>
             <div className="Navbar__icons">
-                <img className="Navbar__icon" src={search} alt="x"  />
-                <img className="Navbar__icon" src={app} alt="x" />
-                <img className="Navbar__icon" src={expand} alt="x" />
-                <img className="Navbar__icon" src={notifications} alt="x" />
-                <img className="Navbar__icon" src={settings} alt="x" />
+                <div className="Navbar__icon-box"><img className="Navbar__icon Navbar__icon--zoom" src={search} alt="x"  /></div>
+                <div className="Navbar__icon-box"><img className="Navbar__icon Navbar__icon--app" src={app} alt="x" /></div>
+                <div className="Navbar__icon-box"><img className="Navbar__icon Navbar__icon--expand" src={expand} alt="x" /></div>
+                <div className="Navbar__icon-box"><img className="Navbar__icon Navbar__icon--bell" src={notifications} alt="x" /></div>
+                <div className="Navbar__icon-box"><img className="Navbar__icon Navbar__icon--gear" src={settings} alt="x" /></div>
                 <div className="Navbar__user">
                     <img className="Navbar__profile" src={profile} />
                     <span className="Navbar__user-name">Dawid Majewski</span>

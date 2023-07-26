@@ -1,0 +1,81 @@
+@keyframes gear {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes bell {
+    0% {
+        transform:rotate(0);
+        transform-origin: top center;
+    }
+    33% {
+        transform:rotate(12deg);
+        transform-origin: top center;
+    }
+    66% {
+        transform:rotate(-12deg);
+        transform-origin: top center;
+    }
+    100% {
+        transform:rotate(0);
+        transform-origin: top center;
+    }
+}
+
+@keyframes expand {
+    0% {
+        transform:scale(1);
+    }
+    20% {
+        transform:scale(1.1);
+    }
+    70% {
+        transform:scale(1.2);
+    }
+    100% {
+        transform:scale(1);
+    }
+}
+
+@keyframes app {
+    0% {
+        transform:rotate(0);
+    }
+    14% {
+        transform:rotate(90deg);
+    }
+    28% {
+        transform:rotate(90deg);
+    }
+    42% {
+        transform:rotate(180deg);
+    }
+    56% {
+        transform:rotate(180deg);
+    }
+    70% {
+        transform:rotate(270deg);
+    }
+    84% {
+        transform:rotate(270deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+@keyframes zoom {
+    0% {
+        transform:scale(1);
+    }
+    50% {
+        transform:scale(1.2);
+    }
+    100% {
+        transform:scale(1);
+    }
+}
