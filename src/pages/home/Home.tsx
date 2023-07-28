@@ -1,9 +1,10 @@
-import "./home.scss"
+import "./home.scss";
+import Deals from '../../components/deals/Deals'
 
 const Home = () => {
     return (
         <div className="Home">
-        <div className="Home__box Home__box--1">1</div>
+        <div className="Home__box Home__box--1"><Deals /></div>
         <div className="Home__box Home__box--2">2</div>
         <div className="Home__box Home__box--3">3</div>
         <div className="Home__box Home__box--4">4</div>
