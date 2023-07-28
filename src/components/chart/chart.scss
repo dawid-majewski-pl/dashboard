@@ -1,0 +1,53 @@
+@import "/src/styles/variables.scss";
+.Chart {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    &__info-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex: 3;
+    }
+    &__header {
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    &__count {
+        font-weight: 700;
+        font-size: 32px;
+        letter-spacing: 2px;
+    }
+    &__link {
+        font-size: 16px;
+        color: $chart-link;
+        transition: .2s;
+        &:hover {
+            color: $chart-link-hover;
+        }
+    }
+    &__info {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__graph {
+        width: 100%;
+        height: 60%;
+    }
+    &__stats {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+    &__percentage {
+        font-weight: 700;
+        font-size: 24px;
+    }
+    &__duration {
+        font-size: 16px;
+    }
+}
